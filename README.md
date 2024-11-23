@@ -1,6 +1,8 @@
 # projeto_pizzaria_nonegrup
 Desenvolvimento de Site simples para um pizzaria como atividade do curso de desenvolvimento FullStack do Programa Capacita Brasil - UECE
 
+PAULO RICARDSON SILVA COSTA
+
 Olá, Fernanda e Gabriel, espero que estejam bem.
 De antemão, gostaria de pedir desculpa por não ter seguido as orientações e ter realizado esta atividade sozinho.
 
