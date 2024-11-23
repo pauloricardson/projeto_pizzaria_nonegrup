@@ -1,27 +1,17 @@
-/* PALETA DE CORES */
-    .color-theme_Captura-de-tela-2024-11-15-152033-1-hex { color: #EAE9E3; }
-    .color-theme_Captura-de-tela-2024-11-15-152033-3-hex { color: #A62014; }
-    .color-theme_Captura-de-tela-2024-11-15-152033-4-hex { color: #590202; }
-    .color-theme_Captura-de-tela-2024-11-15-152033-5-hex { color: #141414; }
-    color #fef1d8
-/* ESTILO GERAL */
-.inter-<uniquifier> {
-    font-family: "Inter", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
 body{
     background-color: #fff;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 .interface{
     max-width: 1280px;
@@ -218,7 +208,43 @@ strong{
     line-height: 1.1;
 }
 /*------------------------------ESTILIZAÇÃO DA PÁGINA DE PEDIDO----------------------*/
+.corpo-pedido{
+    background-color: #141414;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 10%;
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    justify-content: center;
+    background-color: #A62014;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
 
+}
+.form-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.form-image img{
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+.form{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #EAE9E3;
+
+}
 
 /*-------------------------------ÁREA DE RESPONSIVIDADE------------------------------*/
 @media screen and (max-width: 1270px){
