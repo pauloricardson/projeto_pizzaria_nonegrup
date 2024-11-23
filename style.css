@@ -1,0 +1,449 @@
+/* PALETA DE CORES */
+    .color-theme_Captura-de-tela-2024-11-15-152033-1-hex { color: #EAE9E3; }
+    .color-theme_Captura-de-tela-2024-11-15-152033-3-hex { color: #A62014; }
+    .color-theme_Captura-de-tela-2024-11-15-152033-4-hex { color: #590202; }
+    .color-theme_Captura-de-tela-2024-11-15-152033-5-hex { color: #141414; }
+    /*O ESTILO DE FONTE DEVE SER PADRONIZADO, USAR O FONTE "Poppins"*/
+/* ESTILO GERAL */
+/*CSS DE PAULO RICARDSON ATÉ A LINHA 398 (ESTILIZAÇÃO DO INDEX, CABEÇALHOS E RODAPÉS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+body{
+    background-color: #fff;
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: auto;
+}
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 5px 2%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #EAE9E3;
+    z-index: 1000;
+    margin-top: -1px;
+}
+.logo{
+    padding-top: 5px;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+header nav{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header a{
+    color: #A62014;
+    text-decoration: none;
+    font-weight: 500;
+}
+header a:hover{
+    color: #590202;
+    transform: scale(1.15);
+    transition: .2s;
+    font-weight: 500;
+}
+header nav ul{
+    list-style-type: none;
+
+}
+header nav.menu ul li{
+    display: inline-flex;
+    padding: 0 40px;
+}
+header .btn-pedido{
+    margin-left: auto;
+}
+header .btn-pedido button{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #A62014;
+    color: #EAE9E3;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.menu{
+    nav-right: auto;
+}
+header .btn-pedido button:hover{
+    box-shadow: 0px 0px 10px #bf4e4e96;
+    transform: scale(1.05);
+    transition: .2s;
+}
+/* ESTILO DO CONTEÚDO DA HOME */
+.destaque img{
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+    padding-top: 80px;
+}
+.menu-mobile{
+    display: none;
+}
+.slogan{
+    padding: 4% 20px;
+    justify-items: center;
+    color: #A62014;
+}
+.titulo-slogan{
+    font-size: 44px;
+    font-weight: 700;
+}
+.destaque-pizzas{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 50px;
+}
+.card-pizza img{
+    width: 220px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.card-nome{
+    width: 200px;
+    padding: 10px 10px;
+}
+.card-pizza{
+    background-color: #EAE9E3;
+    border-radius: 15px;
+}
+.card-pizza:hover{
+    transform: scale(1.05);
+}
+.nomedestaque{
+    color: #A62014;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.0;
+}
+.nomedestaque-itens{
+    color: #141414;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-top: 20px;
+}
+.sobre-nos{
+    padding: 4% 20px;
+    justify-items: center;
+    color: #141414;
+}
+.sobre-nos h2{
+    font-size: 44px;
+    font-weight: 700;
+}
+.historia{
+    display: flex;
+    padding: 20px 100px;
+    text-align: center;
+}
+strong{
+    font-weight: 700;
+}
+/* RODAPÉ */
+.footer{
+    background-color: #EAE9E3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.rodape-info{
+    display: flex;
+    justify-content: center;
+}
+.rodape-dados{
+    padding: 40px;
+}
+.rodape-social{
+    padding: 40px;    
+}
+.rodape-titulo{
+    font-size: 18px;
+    font-weight: 700;
+    color: #A62014;
+}
+.copyright{
+    text-align: center;
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 800;
+    padding-bottom: 10px;
+    background-color: #A62014;
+}
+.copyright p{
+    padding-top: 10px;
+}
+.rodape-social ul li{
+    list-style-type: none;
+    line-height: 1.1;
+}
+.rodape-social a {
+    color: #141414;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+.rodape-social a:hover{
+    color: #A62014;
+}
+.rodape-dados p{
+    font-size: 14px;
+    color: #141414;
+    font-weight: 500;
+    line-height: 1.1;
+}
+@media screen and (max-width: 1270px){
+    .destaque-pizzas{
+        display: grid;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 1100px){
+    /*RESPONSIVIDADE DO CABEÇALHO*/
+    header{
+       margin-top: -1px;
+       margin-left: -1px;
+       margin-right: -1px;
+    }
+    .interface img{
+        width: 100px;
+        margin-left: 8%;
+    }
+    .menu{
+        display: none;
+    }
+    .menu-mibile-geral{
+        margin-top: 5%;
+        margin-bottom: 2%;
+        margin-right: 20px;
+        margin-left: 20px;
+        justify-items: center;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    nav.menu-mobile{
+        display: inline-flex;
+        justify-items: center;
+    }
+    nav.menu-mobile ul li{
+      display: inline-flex;
+    }
+    nav.menu-mobile ul li button a{
+        text-decoration: none;
+        color: #fff;
+
+    }
+    nav.menu-mobile ul li button{
+        padding: 5px 10px;
+        font-size: 12px;
+        font-weight: 500;
+        background-color: #141414;
+        color: #EAE9E3;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+        margin: 5px;
+    }
+    nav.menu-mobile ul li button:hover{
+        box-shadow: 0px 0px 10px #aaa3a396;
+        transform: scale(1.05);
+        transition: .2s;
+    }
+    .titulo-slogan{
+        font-size: 30px;
+        line-height: 100%;
+        font-weight: 700;
+    }
+    header .btn-pedido{
+        margin-left: auto;
+        margin-right: 2%;
+    }
+    header .btn-pedido button{
+        padding: 8px 20px;
+        font-size: 12px;
+        font-weight: 500;
+        background-color: #A62014;
+        color: #EAE9E3;
+        border: 0;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    .destaque img{
+        width: 100%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        overflow: hidden;
+        padding-top: 55px;
+}
+@media screen and (max-width: 625px){
+    }
+    .logo{
+        padding-top: px;
+        margin-bottom: -5px;
+    }
+    .sobre-nos h2{
+    font-size: 24px;
+    padding-top: 5%;
+    }
+    .historia{
+    font-size: 14px;
+    padding: 5% 10px;
+
+    }
+    .destaque img{
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+    padding-top: 60px;
+    }
+    .slogan{
+    padding: 4% 20px;
+    justify-items: center;
+    color: #A62014;
+    }
+    .titulo-slogan{
+    font-size: 170%;
+    font-weight: 700;
+    margin-bottom: 10px;
+    }
+    .destaque-pizzas{
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-left: -25%;
+    margin-right: 0%;
+    }
+    .card-pizza img{
+    width: 100px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin-left: 0%;
+    }
+    .card-nome{
+    width: 200px;
+    padding: 10px 10px;
+    }
+    .card-pizza{
+    background-color: #EAE9E3;
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    }
+    .card-pizza:hover{
+    transform: scale(1.05);
+    }
+    .nomedestaque{
+    color: #A62014;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.0;
+    }
+    .nomedestaque-itens{
+    color: #141414;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-top: 5px;
+    }
+/*RESPONSIVIDADE DO RODAPÉ*/
+    .rodape-info{
+        flex-direction: column;
+        text-align: center;
+    }
+    .rodape-dados h3{
+        font-size: 14px;
+    }
+    .rodape-dados p{
+        font-size: 10px;            
+    }
+    .rodape-dados{
+        padding-top: 20px;
+        margin-bottom: -70px;
+    }
+    .rodape-social{
+        margin-bottom: -20px;
+    }
+    .rodape-social h3{
+        font-size: 14px;
+    }
+    .copyright p{
+        font-size: 8px;
+    }
+}
+  
+
+
+
+/*CSS DE MARCELO*/
+/*pedidos */
+.formu{
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+     
+}
+label,h1,legend,p {
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.p{
+    margin-left: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+
+}
+/*bordas pedidos*/
+#nome{
+    width: 500px;
+}
+#email{
+    width: 300px;
+}
+
+input:required, select:required { 
+    border: 1px solid black; 
+   } 
+input:invalid, select:invalid{ 
+    border: 1px solid red; 
+
+   } 
+ input:valid, select:valid{ 
+    border: 1px solid green; 
+   }
+#observacoes{
+    border: 1px solid green;
+   }
+   @media( max-width: 600px){
+    .media-query-box {
+        display: flex;
+
+    }
+}
