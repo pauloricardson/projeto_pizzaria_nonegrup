@@ -224,25 +224,114 @@ strong{
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
+    border-radius: 10px;
 
 }
 .form-image{
-    width: 50%;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
 }
 .form-image img{
-    width: 500px;
+    width: 200px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 }
 .form{
-    width: 50%;
+    width: 80%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     background-color: #EAE9E3;
+    padding: 3rem;
+    border-radius: 10px;
+}
+.form-header{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10%;
+
+}
+.btn-procurar button{
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #141414;
+    color: #EAE9E3;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 5px;
+    cursor: pointer;   
+}
+.btn-procurar button a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-procurar button:hover{
+    box-shadow: 0px 0px 10px #aaa3a396;
+    transform: scale(1.05);
+    transition: .2s;
+}
+.titulo h1{
+    font-weight: 800;
+    color: #141414;
+    font-size: 200%;
+}
+.titulo h1::after{
+    content: '';
+    display: block;
+    width: 8rem;
+    height: 0.4rem;
+    background-color: #A62014;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+.pedido-entrada{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+label{
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.caixa-entrada{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+select, input{
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem;
+    box-shadow: 1px 1px 2px #14141448 ;
+    font-size: 12px;
+}
+select, input:hover{
+    background-color: #f3f3f3;
+}
+.caixa-entrada input:focus{
+    outline: 1px solid #A62014;
+}
+.p-form, legend{
+    font-weight: 500;
+    color: #A62014;
+}
+.entrada-sabor select{
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem;
+    box-shadow: 1px 1px 2px #14141448 ;
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 2%;
 
 }
 
@@ -251,6 +340,8 @@ strong{
     .destaque-pizzas{
         display: grid;
         justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 @media screen and (max-width: 1100px){
