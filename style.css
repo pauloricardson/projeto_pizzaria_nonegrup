@@ -212,6 +212,7 @@ strong{
     font-weight: 500;
     line-height: 1.1;
 }
+/*-------------------------------ÁREA DE RESPONSIVIDADE------------------------------*/
 @media screen and (max-width: 1270px){
     .destaque-pizzas{
         display: grid;
@@ -394,56 +395,5 @@ strong{
     }
     .copyright p{
         font-size: 8px;
-    }
-}
-  
-
-
-
-/*CSS DE MARCELO*/
-/*pedidos */
-.formu{
-    margin-top: 10%;
-    margin-left: 15%;
-    margin-right: 15%;
-     
-}
-label,h1,legend,p {
-  font-family: "Poppins", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-}
-.p{
-    margin-left: 40%;
-    font-family: 'Times New Roman', Times, serif;
-    color: blue;
-
-}
-/*bordas pedidos*/
-#nome{
-    width: 500px;
-}
-#email{
-    width: 300px;
-}
-
-input:required, select:required { 
-    border: 1px solid black; 
-   } 
-input:invalid, select:invalid{ 
-    border: 1px solid red; 
-
-   } 
- input:valid, select:valid{ 
-    border: 1px solid green; 
-   }
-#observacoes{
-    border: 1px solid green;
-   }
-   @media( max-width: 600px){
-    .media-query-box {
-        display: flex;
-
     }
 }
