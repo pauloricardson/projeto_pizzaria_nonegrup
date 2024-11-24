@@ -208,19 +208,19 @@ strong{
     line-height: 1.1;
 }
 /*------------------------------ESTILIZAÇÃO DA PÁGINA DE PEDIDO----------------------*/
+
 .corpo-pedido{
     background-color: #141414;
     justify-content: center;
     align-items: center;
 }
 .container{
-    margin-top: 10%;
+    margin-top: 300px;
     width: 90%;
-    height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
     justify-content: center;
-    background-color: #A62014;
+    background-color: #EAE9E3;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
@@ -252,14 +252,13 @@ strong{
     justify-content: center;
     flex-direction: column;
     background-color: #EAE9E3;
-    padding: 3rem;
     border-radius: 10px;
 }
 .form-header{
     margin-bottom: 2rem;
     display: flex;
     justify-content: space-between;
-    margin-top: 5%;
+    margin-top: 4%;
 
 }
 .btn-procurar button{
@@ -288,6 +287,7 @@ strong{
     color: #141414;
     font-size: 180%;
     color: #141414;
+    margin-bottom: 5%;
 }
 .titulo h1::after{
     content: '';
@@ -322,6 +322,7 @@ select, input{
     padding: 0.5rem;
     box-shadow: 1px 1px 2px #14141448 ;
     font-size: 12px;
+    margin-bottom: 20px;
 }
 select, input:hover{
     background-color: #f3f3f3;
@@ -332,6 +333,7 @@ select, input:hover{
 .p-form, legend{
     font-weight: 500;
     color: #A62014;
+    margin-bottom: 10px;
 }
 .entrada-sabor select{
     border: none;
@@ -342,6 +344,57 @@ select, input:hover{
     width: 100%;
     margin-bottom: 2%;
 
+}
+.obs{
+    display: flex;
+    flex-direction: column;
+    color: #A62014;
+    font-weight: 500;
+    font-size: 18px;
+}
+.obs textarea{
+    border-radius: 10px;
+    border: none;
+
+}
+.bebidas{
+    display: flex;
+    flex-direction: column;
+}
+.bebidas label{
+    color: #A62014;
+    font-size: 14px;
+    font-weight: 500;
+}
+.submissao{
+
+}
+.submissao button{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #A62014;
+    color: #EAE9E3;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 5px;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 5%;
+}
+.submissao button a{
+    text-decoration: none;
+    color: #fff;
+}
+.submissao button:hover{
+    box-shadow: 0px 0px 10px #ff515196;
+    transform: scale(1.05);
+    transition: .2s;
+}
+.tamanho-bebida{
+    display: flex;
+    flex-direction: column;
 }
 
 /*-------------------------------ÁREA DE RESPONSIVIDADE------------------------------*/
