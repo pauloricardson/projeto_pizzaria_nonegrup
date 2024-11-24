@@ -227,15 +227,7 @@ strong{
     border-radius: 10px;
 
 }
-.form-image{
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
-}
-.form-image img{
-    width: 200px;
+.form-image{ 
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 }
 .form{
