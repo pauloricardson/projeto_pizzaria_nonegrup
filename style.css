@@ -225,13 +225,29 @@ strong{
     margin-right: 5%;
     margin-bottom: 5%;
     border-radius: 10px;
-
 }
-.form-image{ 
+.slogan-pedido{
+    color: #fff;
+    font-weight: 900;
+    font-size: 20px;
+}
+.slogan-pedido h1{
+    color: #fff;
+    font-weight: 900;
+}
+.form-image{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.form-image img{
+    width: 200px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
 }
 .form{
-    width: 80%;
+    width: 85%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -243,7 +259,7 @@ strong{
     margin-bottom: 2rem;
     display: flex;
     justify-content: space-between;
-    margin-top: -10%;
+    margin-top: 5%;
 
 }
 .btn-procurar button{
@@ -270,7 +286,8 @@ strong{
 .titulo h1{
     font-weight: 800;
     color: #141414;
-    font-size: 200%;
+    font-size: 180%;
+    color: #141414;
 }
 .titulo h1::after{
     content: '';
