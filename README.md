@@ -1,13 +1,26 @@
-# projeto_pizzaria_nonegrup
-Desenvolvimento de Site simples para um pizzaria como atividade do curso de desenvolvimento FullStack do Programa Capacita Brasil - UECE
+# Pizzaria Delícia 🍕
 
-PAULO RICARDSON SILVA COSTA
+Bem-vindo ao repositório do projeto **Pizzaria Delícia**, um sistema simples e atrativo para apresentar uma pizzaria, com foco em oferecer uma boa experiência ao cliente.
 
-Olá, Fernanda e Gabriel, espero que estejam bem.
-De antemão, gostaria de pedir desculpa por não ter seguido as orientações e ter realizado esta atividade sozinho.
+## Funcionalidades
 
-Resolvi fazer sozinho, mesmo sabendo que a entrega está em cima da hora, pelo fato de que desde que a atividade foi proposta, eu venho me dedicando a elaboração dessa página para poder entregar o meu melhor, venho estudando e revendo as aulas para implementar o CSS no HTML e fazer uma páginaque tenha um boa experiência para o usuário.
+- **Página Inicial (Home):** Apresenta a pizzaria, com destaque para o slogan, pizzas principais e a história da empresa.
+- **Pedidos:** Página onde os clientes podem fazer pedidos online de maneira prática.
 
-Na primeira semana, defini os cabeçalhos e dorapés e estilizei a página index para que os integrantes seguissem o mesmo modelo de layout, defini as paletas de cores e as fontes a serem utilizadas. Infelizmente, a equipe não tem o compromisso de fazer um ótima atividade, deixando para fazer tudo há dois dias da entrega da atividade, definindo cores diferentes, fontes diferentes, não conseguindo estilizar as páginas de modo adequeado e atribuindo problemas aos meus códigos, a qual denfeni classe específicas para que não atrabalhasse ningém. Um dos integrantes, sempre que mostrava o andamento da minha página, sempre tinha um problema com meus códigos, a ponto de precisar voltar nos slides da aula e mostrar que a estrutura estava correta. Outra situação, esse mesmo integrante mandou mensagem disendo que eu tinha quebrado o código dele, no fim, não foi meu código, mas sim a classe errada que ele colocou no CSS. Eu gosto de trabaçhar em equipe, de ajudar as pessoas, mas quando tem gente só critica e não mostra resultados é muito complicado, pois passei as ultimas semanas trabalhando e mostrando os meus resultado, enquanto a equipe não trazia nada. Eu tive o cuidado de trazer um boa estética, dá um pouco de responsividade, e entreguei os códigos a eles com os cabeçalhos e rodapés tudo pronto, também defeni um estilização geral para todas as páginas, mas infelizmente vão lá e fazem diferentes, utilizam tags como seletor (sendo que deve-se ter o cuidado de observar a página do outro).
+> **Nota:** As páginas de **Cardápio**, **Promoções** e **Nossas Lojas** foram planejadas, mas não desenvolvidas devido a restrições de tempo do desenvolvedor.
 
-A atividade teve quase 3 semanas para ser realizada, e eu todos os dias fazia alguma coisa, melhorva algo do ponto de vista da estética e da responsividade, equanto o resto da equipe não trabalhava no projeto, deixando para discutir no sábado (23/11/2024 - Tarde) e mandando eu remandar meus códigos fora do github (a qual já estava atualizado). Eu poderia ter humildade de rever o que pode está acontecendo, de ajudar, mas deixaram para cima da hora, eu com muitas atividade da faculdade para terminar, então resolvi fazer todo o projeto eu mesmo, mesmo que eu leve a madrugaga estlizando.
+## Responsividade
+
+- O projeto foi desenvolvido com foco na **responsividade**, buscando oferecer uma experiência fluida tanto em dispositivos **desktop** quanto em **celulares**.  
+
+## Tecnologias Utilizadas
+
+- **HTML5:** Estruturação das páginas.  
+- **CSS3:** Estilo e layout das páginas. 
+
+## Organização do Projeto
+
+- `index.html`: Página inicial.  
+- `pedidos.html`: Página de pedidos.  
+- `style.css`: Arquivo de estilos para personalização do layout.  
+- `midias/`: Pasta para imagens e ícones usados no projeto.  
