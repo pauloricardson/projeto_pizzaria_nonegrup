@@ -8,7 +8,7 @@
     font-style: normal;
 }
 body{
-    background-color: #fff;
+    background-color: #141414;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -24,12 +24,13 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #EAE9E3;
+    background-color: #A62014;
     z-index: 1000;
     margin-top: -1px;
 }
 .logo{
-    padding-top: 5px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 header > .interface{
     display: flex;
@@ -43,12 +44,12 @@ header nav{
     transform: translateX(-50%);
 }
 header a{
-    color: #A62014;
+    color: #fff;
     text-decoration: none;
     font-weight: 500;
 }
 header a:hover{
-    color: #590202;
+    color: #dbdbdb;
     transform: scale(1.15);
     transition: .2s;
     font-weight: 500;
@@ -68,8 +69,8 @@ header .btn-pedido button{
     padding: 10px 20px;
     font-size: 18px;
     font-weight: 500;
-    background-color: #A62014;
-    color: #EAE9E3;
+    background-color: #fff;
+    color: #A62014;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -88,15 +89,15 @@ header .btn-pedido button:hover{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     overflow: hidden;
-    padding-top: 80px;
+    margin-top: -160px;
 }
 .menu-mobile{
     display: none;
 }
 .slogan{
-    padding: 4% 20px;
+    padding: 2% 20px;
     justify-items: center;
-    color: #A62014;
+    color: #EAE9E3;
 }
 .titulo-slogan{
     font-size: 44px;
@@ -120,7 +121,7 @@ header .btn-pedido button:hover{
     padding: 10px 10px;
 }
 .card-pizza{
-    background-color: #EAE9E3;
+    background-color: #fef1d8;
     border-radius: 15px;
 }
 .card-pizza:hover{
@@ -142,7 +143,7 @@ header .btn-pedido button:hover{
 .sobre-nos{
     padding: 4% 20px;
     justify-items: center;
-    color: #141414;
+    color: #fff;
 }
 .sobre-nos h2{
     font-size: 44px;
@@ -158,7 +159,7 @@ strong{
 }
 /* RODAPÉ */
 .footer{
-    background-color: #EAE9E3;
+    background-color: #A62014;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -175,15 +176,15 @@ strong{
 .rodape-titulo{
     font-size: 18px;
     font-weight: 700;
-    color: #A62014;
+    color: #fff;
 }
 .copyright{
     text-align: center;
     font-size: 12px;
-    color: #ffffff;
+    color: #141414;
     font-weight: 800;
     padding-bottom: 10px;
-    background-color: #A62014;
+    background-color: #fff;
 }
 .copyright p{
     padding-top: 10px;
@@ -193,17 +194,17 @@ strong{
     line-height: 1.1;
 }
 .rodape-social a {
-    color: #141414;
+    color: #ffff;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
 }
 .rodape-social a:hover{
-    color: #A62014;
+    color: #ffff;
 }
 .rodape-dados p{
     font-size: 14px;
-    color: #141414;
+    color: #ffffff;
     font-weight: 500;
     line-height: 1.1;
 }
