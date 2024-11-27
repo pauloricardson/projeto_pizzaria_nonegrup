@@ -8,7 +8,7 @@
     font-style: normal;
 }
 body{
-    background-color: #141414;
+    background-color: #ffff;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,10 @@ header .btn-pedido button:hover{
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     overflow: hidden;
-    margin-top: -160px;
+    margin-top: 5%;
+}
+.destaque-mobile img{
+    display: none;
 }
 .menu-mobile{
     display: none;
@@ -97,7 +100,7 @@ header .btn-pedido button:hover{
 .slogan{
     padding: 2% 20px;
     justify-items: center;
-    color: #EAE9E3;
+    color: #A62014;
 }
 .titulo-slogan{
     font-size: 44px;
@@ -143,7 +146,7 @@ header .btn-pedido button:hover{
 .sobre-nos{
     padding: 4% 20px;
     justify-items: center;
-    color: #fff;
+    color: #141414;
 }
 .sobre-nos h2{
     font-size: 44px;
@@ -215,12 +218,12 @@ strong{
     align-items: center;
 }
 .container{
-    margin-top: 300px;
+    margin-top: 100px;
     width: 90%;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
     justify-content: center;
-    background-color: #EAE9E3;
+    background-color: #fef1d8;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5%;
@@ -251,7 +254,6 @@ strong{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: #EAE9E3;
     border-radius: 10px;
 }
 .form-header{
@@ -429,6 +431,7 @@ select, input:hover{
         justify-content: space-between;
         align-items: center;
         text-align: center;
+        margin-top: 15%;
     }
     nav.menu-mobile{
         display: inline-flex;
@@ -470,9 +473,9 @@ select, input:hover{
     header .btn-pedido button{
         padding: 8px 20px;
         font-size: 12px;
-        font-weight: 500;
-        background-color: #A62014;
-        color: #EAE9E3;
+        font-weight: 700;
+        background-color: #ffff;
+        color: #A62014;
         border: 0;
         border-radius: 30px;
         cursor: pointer;
@@ -482,7 +485,10 @@ select, input:hover{
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         overflow: hidden;
-        padding-top: 55px;
+        margin-top: 0px;
+    }
+    .container{
+        margin-top: 30px;
 }
 @media screen and (max-width: 625px){
     }
@@ -500,11 +506,16 @@ select, input:hover{
 
     }
     .destaque img{
-    width: 100%;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    overflow: hidden;
-    padding-top: 60px;
+    display: none;
+    }
+    .destaque-mobile img{
+        width: 90%;
+        display: flex;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%; 
+        margin-right: 5%;
     }
     .slogan{
     padding: 4% 20px;
@@ -536,7 +547,7 @@ select, input:hover{
     padding: 10px 10px;
     }
     .card-pizza{
-    background-color: #EAE9E3;
+    background-color: #fef1d8;
     border-radius: 15px;
     width: 100%;
     display: flex;
